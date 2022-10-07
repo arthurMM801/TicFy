@@ -1,11 +1,11 @@
 import './App.css';
-import { Button } from 'react-bootstrap';
+import Rotas from './routes/router';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Ola mundo</h1>
-      <Button>Teste</Button>
+    <div>
+      <Rotas/>
     </div>
   );
 }
