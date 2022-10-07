@@ -7,7 +7,7 @@ function SideBar() {
     return (
         <nav className="sidebar blue">
             <div className="sidebar-header">
-                <img src="Ceará-sc-logo-escudo-3.png" className="logo" alt="Logo do site TicFy"></img>
+                <img src="logo192.png" className="logo" alt="Logo do site TicFy"></img>
                 <h3>TicFy</h3>
             </div>
 
