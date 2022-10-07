@@ -1,0 +1,23 @@
+
+.card{
+    width: 8%;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #DBD4D3;
+    color: #152536;
+}
+
+.card__image{
+    width: auto;
+    height: auto;
+}
+
+.card__titulo{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.card__descricao{
+    font-size: 10px;
+}
