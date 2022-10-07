@@ -1,0 +1,45 @@
+
+.blue {
+    background-color: #0E8AFD;
+}
+
+.sidebar {
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    transition: all 0.3s;
+    padding: 2rem;
+}
+
+
+.sidebar-header{
+    font-size: 2rem;
+    display: flex;
+    cursor: default;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+
+a {
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.nav__item{
+    margin-top: 24px;
+}
+
+.active{
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    
+}
