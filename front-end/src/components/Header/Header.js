@@ -31,7 +31,7 @@ function Header() {
               </li>
               <li className="nav-item dropdown perfil">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                  Perfio
+                  Perfil
                 </a>
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#">Minha conta</a></li>
