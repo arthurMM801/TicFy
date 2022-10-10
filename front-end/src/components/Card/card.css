@@ -1,10 +1,12 @@
 
 .card{
-    width: 8%;
-    padding: 2px;
+    width: 100%;
+    padding: 5px;
     box-sizing: border-box;
     background-color: #DBD4D3;
     color: #152536;
+    overflow-wrap: normal;
+    box-shadow: 0px 0px 2px 1px #888888;
 }
 
 .card__image{

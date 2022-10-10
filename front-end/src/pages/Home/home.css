@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#content {
+#rigthSide {
     width: calc(100% - 220px);
     min-height: 100vh;
     transition: all 0.3s;
@@ -14,7 +14,10 @@
     top: 0;
     right: 0;
 
-   
+}
+
+.content{
+    background-color: rgba(210, 210, 161, 0.2);
 }
 
 /*

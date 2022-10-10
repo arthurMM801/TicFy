@@ -7,11 +7,16 @@
     border-color: #020202;
 }
 
+.perfil{
+    display: none;
+}
+
 
 .pesquisar__button:hover{
     border-color: #020202;
 }
 
-.dropdown-menu{
+#alinhamento-menu{
+    position: absolute;
     left: -100px;
 }
