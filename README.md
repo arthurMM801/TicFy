@@ -1,2 +1,2 @@
 # TicFy
-Plataforma web de streaming de musica super top
+Plataforma web de streaming de musica top
