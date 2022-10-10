@@ -29,11 +29,12 @@ function Header() {
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#">Cadastre-se</a>
               </li>
+
               <li className="nav-item dropdown perfil">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                  Perfio
+                  perfil
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu" id="alinhamento-menu">
                   <li><a className="dropdown-item" href="#">Minha conta</a></li>
                   <li>
                     <hr className="dropdown-divider" />
@@ -45,6 +46,7 @@ function Header() {
                   <li><a className="dropdown-item" href="#">Sair</a></li>
                 </ul>
               </li>
+              
             </ul>
           </div>
         </div>

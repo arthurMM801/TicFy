@@ -20,18 +20,22 @@ function SideBar() {
                 </li>
                 <li className="nav__item">
                     <a href="#">
+                        <i className="fa-solid fa-magnifying-glass"></i>
                         Pesquisar
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#">
+                        <i className="fa-brands fa-wpexplorer"></i>
                         Explorar
                     </a>
                 </li>
                 <li className="nav__item">
+                    <i className="fa-solid fa-book"></i>
                     <a href="#">Minhas Musicas</a>
                 </li>
                 <li className="nav__item">
+                    <i className="fa-solid fa-heart"></i>
                     <a href="#">Curtidas</a>
                 </li>
             </ul>
