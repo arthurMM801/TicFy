@@ -1,8 +1,11 @@
 import './card.css'
+import { useState } from 'react'
 
 
 
 function Card(){
+
+  const [nome, setNome] = useState("")
 
     return (
         <div className="card">
