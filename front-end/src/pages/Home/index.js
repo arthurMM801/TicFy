@@ -13,6 +13,8 @@ function Home() {
         <Header />
         <div className="content">
           <ListaDeMusica />
+          <ListaDeMusica />
+          <ListaDeMusica />
         </div>
         
       </div>
