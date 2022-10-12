@@ -15,11 +15,11 @@
 }
 
 .card__titulo{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: .3rem;
 }
 
 .card__descricao{
-    font-size: 10px;
+    font-size: 12px;
 }
