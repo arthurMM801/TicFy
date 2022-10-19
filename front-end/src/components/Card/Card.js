@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 
 
-function Card({nome, descricao}){
+function Card(){
 
   const [nome, setNome] = useState("")
 

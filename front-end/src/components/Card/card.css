@@ -3,7 +3,7 @@
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
-    background-color: #DBD4D3;
+    background-color: var(--gelo);
     color: #152536;
     overflow-wrap: normal;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -15,11 +15,11 @@
 }
 
 .card__titulo{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: .3rem;
 }
 
 .card__descricao{
-    font-size: 10px;
+    font-size: 12px;
 }
