@@ -9,10 +9,10 @@ function Explorar() {
     <div className="">
       <Cabecalho />
         <div className="explorar__content">
-          <div className='player'>
-            <img src='envolver.png' className='player__img' alt=""></img>
-            <p className='player__titulo'>Titulo</p>
-            <p className='player__descricao'>Descricao</p>
+          <div className='explorar'>
+            <img src='envolver.png' className='explorar__img' alt=""></img>
+            <p className='explorar__titulo'>Titulo</p>
+            <p className='explorar__descricao'>Descricao</p>
           </div>
 
           <div className='funcionalidades'>
