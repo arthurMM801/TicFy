@@ -1,0 +1,15 @@
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rigthSide {
+    width: calc(100% - 220px);
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
