@@ -9,57 +9,34 @@ function ListaDeMusica() {
         <div className="lista__musicas" >
             <span className="tituloDaLista">Tendências</span>
              <ul className="list-group-horizontal">
-               
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
+                <li className="item__musica">
                     <Card />
                 </li>
-                <li>
-                    <Card />
-                </li>
-                <li>
-                    <Card />
-                </li>
-                <li>
-                    <Card />
-                </li><li>
-                    <Card />
-                </li>
-                <li>
-                    <Card />
-                </li>
-                <li>
-                    <Card />
-                </li>
-                <li>
-                    <Card />
-                </li>
-                <li>
-                    <Card />
-                </li>
+                
             </ul >
         </div>
     );

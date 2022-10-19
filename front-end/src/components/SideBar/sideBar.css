@@ -8,10 +8,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100vw;
     z-index: 999;
-    transition: all 0.3s;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 
