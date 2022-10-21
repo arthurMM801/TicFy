@@ -6,17 +6,24 @@ import Gostos from '../pages/Gostos'
 import Explorar from '../pages/Explorar'
 import Player from '../pages/Player'
 
+
+
+
+
 const Rotas = () =>{
   return(
     <BrowserRouter>
     <Routes>
-      <Route path='/home' element={ <Home/> }/>
+      <Route path='/' element={ <Home/> }/>
       <Route path='/login' element={ <Login/> }/>
+
 
       <Route path='/SeusGostos' element={ <Gostos/> }/>
 
       <Route path='/explorar' element={ <Explorar />} />
-      <Route path='/' element={ <Player />} />
+      <Route path='/player' element={ <Player />} />
+
+
     </Routes>
   </BrowserRouter>
   )
