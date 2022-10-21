@@ -3,6 +3,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'https://kit.fontawesome.com/119463e00c.js';
 import Cabecalho from '../../components/Cabecalho/Cabecalho';
 
+import Envolver from '../../assets/envolver.png'
+import Perfil from '../../assets/perfil.png'
+import Add from '../../assets/Add.png'
+import Heart from '../../assets/suit-heart.png'
+
 
 function Explorar() { 
   return (
@@ -10,14 +15,14 @@ function Explorar() {
       <Cabecalho />
         <div className="explorar__content">
           <div className='explorar'>
-            <img src='envolver.png' className='explorar__img' alt=""></img>
+            <img src={Envolver} className='explorar__img' alt=""></img>
             <p className='explorar__titulo'>Titulo</p>
             <p className='explorar__descricao'>Descricao</p>
           </div>
 
           <div className='funcionalidades'>
             <div className='funcionalidades__perfil'>
-              <img src="perfil.png" className='funcinalidades__perfil-img' alt=""></img>
+              <img src={Perfil} className='funcinalidades__perfil-img' alt=""></img>
               <div >
                 <label className='funcinalidades__perfil-ciador'>Anita</label><br/>
                 <label className='funcinalidades__perfil-descricao'>Single by Anita - 2021</label>
@@ -26,8 +31,8 @@ function Explorar() {
             </div>
             <hr/>
             <div className='funcionalidades__interacoes'>
-              <img src='zoom-in.png'></img>
-              <img src='suit-heart.png'></img>
+              <button className='funcionalidades__button'> <img src={Add}></img> </button>
+              <button className='funcionalidades__button'> <img src={Heart}></img> </button> 
 
             </div>
 

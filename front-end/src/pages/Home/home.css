@@ -20,11 +20,7 @@
 .home__content {
     width: calc(100% - 220px);
     height: calc(100% - 48px);
-    min-height: 100vh;
-    transition: all 0.3s;
     position: absolute;
     top: 48px;
     right: 0;
-    background-color: rgba(210, 210, 161, 0.2);
-    z-index: -1;
 }
