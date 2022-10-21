@@ -1,0 +1,12 @@
+.Container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.arrow-right{
+    transform: rotateY(180deg);
+}
+.arrow-right svg,
+.arrow-left svg{
+    fill: white;
+}
