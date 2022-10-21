@@ -1,12 +1,88 @@
-.Container{
+.Container-Gostos{
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Container-Gostos h1{
+    font-size: 35px;
+    font-weight: 750;
+    position: absolute;
+    bottom: 560px;
+}
+.Container-Gostos #btn-gostos{
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size:20px;
+    width: 200px;
+    height: 50px;
 }
 
-.arrow-right{
+.arrow-right,
+.arrow-left {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    position: absolute;
+    right: 0;
+}
+.arrow-left{
+    left: 0;
+    right: auto;
     transform: rotateY(180deg);
 }
 .arrow-right svg,
 .arrow-left svg{
     fill: white;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.397));
+    transition: all 0.3s;
+}
+.arrow-right svg:hover,
+.arrow-left svg:hover{
+    fill: rgba(255, 255, 255, 0.747);
+}
+
+
+.carrocel-wrapper{
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    width: auto;
+    border-radius: 10px;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.gallery{
+    display: flex;
+    gap:10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 600ms;
+    background-color: white;
+}
+.item img{
+    width: 250px;
+    height: 250px;
+}
+.item h2{
+    margin: 20px 0;
+    font-weight: 600;
+}
+.selected-item{
+    border: 5px solid blue;
 }
