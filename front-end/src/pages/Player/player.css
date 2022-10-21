@@ -7,8 +7,6 @@
     position: absolute;
     top: 48px;
     right: 0;
-    background-color: rgba(210, 210, 161, 0.2);
-    z-index: -1;
 }
 
 
@@ -29,6 +27,7 @@
 .player__imagem {
     width: 400px;
     height: 200px;
+    object-fit: cover;
 }
 
 .player__perfil-img{
@@ -64,4 +63,13 @@
     font-size: 32px;
     font-weight: 500;
     font-family: "Poppins";
+}
+
+
+.player__controle{
+
+}
+
+.player__progress{
+    width: 720px;
 }

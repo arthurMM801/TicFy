@@ -5,8 +5,6 @@
     position: absolute;
     top: 48px;
     right: 0;
-    background-color: rgba(210, 210, 161, 0.2);
-    z-index: -1;
 }
 
 .explorar__content {
@@ -49,19 +47,28 @@
     padding: 5px;
 }
 
+.funcionalidades__button{
+    border-color: transparent;
+}
+
+
 .funcionalidades__comentarios {
     background-color: white;
     width: 100%;
     vertical-align: bottom;
 }
 
-.funcionalidades__comentarios-area {}
+.funcionalidades__comentarios-area {
+
+}
 
 .funcionalidades__comentarios-escreve {
     vertical-align: bottom;
 }
 
-#comentarios {}
+#comentarios {
+    width: 90%;
+}
 
 #enviar {
     padding: 5px;

@@ -9,6 +9,7 @@ import Player from '../pages/Player'
 
 
 
+
 const Rotas = () =>{
   return(
     <BrowserRouter>
@@ -16,10 +17,13 @@ const Rotas = () =>{
       <Route path='/' element={ <Home/> }/>
       <Route path='/login' element={ <Login/> }/>
 
-      <Route path='/seusGostos' element={ <Gostos/> }/>
+
+      <Route path='/SeusGostos' element={ <Gostos/> }/>
 
       <Route path='/explorar' element={ <Explorar />} />
-      <Route path='/player' element={ <Player />} />
+      <Route path='/' element={ <Player />} />
+
+
     </Routes>
   </BrowserRouter>
   )
