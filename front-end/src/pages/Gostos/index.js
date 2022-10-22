@@ -63,7 +63,6 @@ const handleCLickItem =(e)=>{
     setbtnSelect(btnSelect => !btnSelect)
 }
 let addClass = btnSelect ? ' active' : ''
-let count = 0 //pra contar os itens
 
     return(
         <div className="Container-Gostos">
@@ -103,9 +102,8 @@ let count = 0 //pra contar os itens
                             return(
                                 <div 
                                 key={img.id} 
-                                className={`item item${count++}${addClass}`}
+                                className={`item item${img.id}`}
                                 ref={item}
-                                onClick={()=>{}}
                                 >
                                     <img 
                                     src={img.img} 
