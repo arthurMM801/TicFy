@@ -5,9 +5,7 @@ import Home from '../pages/Home'
 import Gostos from '../pages/Gostos'
 import Explorar from '../pages/Explorar'
 import Player from '../pages/Player'
-
-
-
+import Cadastro from '../pages/Cadastro'
 
 
 const Rotas = () =>{
@@ -15,9 +13,9 @@ const Rotas = () =>{
     <BrowserRouter>
     <Routes>
       <Route path='/' element={ <Home/> }/>
+      
       <Route path='/login' element={ <Login/> }/>
-
-
+      <Route path='/cadastro' element={ <Cadastro/> }/>
       <Route path='/SeusGostos' element={ <Gostos/> }/>
 
       <Route path='/explorar' element={ <Explorar />} />
