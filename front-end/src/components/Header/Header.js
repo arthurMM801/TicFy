@@ -8,7 +8,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg blue">
         <div className="container-fluid">
           <form className="d-flex" role="search">
-            <input className="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />
+            <input className="form-control me-2 header__pesquisar" type="search" placeholder="Pesquisar" aria-label="Search" />
             <button className="btn bntStyle pesquisar__button" type="submit">Pesquisar</button>
           </form>
 

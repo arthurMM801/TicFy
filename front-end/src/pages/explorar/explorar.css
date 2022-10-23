@@ -33,6 +33,7 @@
 .funcionalidades {
     width: 60%;
     height: 100%;
+    padding: 10px;
 }
 
 .funcionalidades__perfil {
@@ -59,7 +60,8 @@
 }
 
 .funcionalidades__comentarios-area {
-
+    padding: 10px;
+    height: 350px;
 }
 
 .funcionalidades__comentarios-escreve {
@@ -68,9 +70,13 @@
 
 #comentarios {
     width: 90%;
+    vertical-align: bottom;
+    padding: 5px;
+    font-size: 12px;
 }
 
 #enviar {
+    width: 10%;
     padding: 5px;
     font-size: 12px;
     border-radius: 4px;

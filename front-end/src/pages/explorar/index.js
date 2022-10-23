@@ -5,7 +5,7 @@ import Cabecalho from '../../components/Cabecalho/Cabecalho';
 
 import Envolver from '../../assets/envolver.png'
 import Perfil from '../../assets/perfil.png'
-import Add from '../../assets/Add.png'
+import Add from '../../assets/add.png'
 import Heart from '../../assets/suit-heart.png'
 
 
@@ -38,7 +38,7 @@ function Explorar() {
 
             <div className='funcionalidades__comentarios'>
               <div className='funcionalidades__comentarios-area'>
-
+            
               </div>
               <div className='funcionalidades__comentarios-escrever'>
                 <input id='comentarios' type={"text"} placeholder="Escreva seu comentario"></input>
