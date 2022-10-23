@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
 import ListaDeMusica from '../../components/ListaDeMusicas/ListaDeMusica'
 import Card from '../../components/Card/Card';
+import Foto from '../../assets/foto_perfil.png'
 
 
 
@@ -14,7 +15,7 @@ function Perfil() {
 
       <div className='perfil'>
         <div className='perfil-wrapper'>
-        <img src="image.png" className="perfil__image" ></img>
+        <img src={Foto} className="perfil__image" ></img>
         <button type="submit" className="edit_btn">
         Editar perfil
         </button>
