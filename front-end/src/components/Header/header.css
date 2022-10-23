@@ -7,11 +7,15 @@
     border-color: #020202;
 }
 
-
-.pesquisar__button:hover{
-    border-color: #020202;
+.header__pesquisar{
+    width: 250px;
 }
 
 .dropdown-menu{
     left: -100px;
 }
+
+.pesquisar__button:hover{
+    border-color: #020202;
+}
+

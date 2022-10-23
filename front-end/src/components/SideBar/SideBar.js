@@ -15,24 +15,32 @@ function SideBar() {
                 <li className="active nav__item">
                     <a href="#homeSubmenu" className="">
                         <i className="fa-solid fa-house"></i>
-                        Home
+                        <span>Home</span>
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#">
-                        Pesquisar
+                        <i className="fa-solid fa-magnifying-glass"></i>
+                        <span>Pesquisar</span>
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#">
-                        Explorar
+                        <i className="fa-brands fa-wpexplorer"></i>
+                        <span>Explorar</span>
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="#">Minhas Musicas</a>
+                    <a href="#">
+                        <i className="fa-solid fa-book"></i>
+                        <span>Minhas Musicas</span>
+                    </a>
                 </li>
                 <li className="nav__item">
-                    <a href="#">Curtidas</a>
+                    <a href="#">
+                        <i className="fa-solid fa-heart"></i>
+                        <span>Curtidas</span>
+                    </a>
                 </li>
             </ul>
 

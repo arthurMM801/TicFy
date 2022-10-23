@@ -8,10 +8,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100vw;
     z-index: 999;
-    transition: all 0.3s;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 
@@ -28,7 +27,7 @@
     top: 5px;
 }
 
-a {
+.nav__item a {
     color: black;
     font-size: 1.1rem;
     text-decoration: none;
@@ -36,6 +35,10 @@ a {
 
 .nav__item{
     margin-top: 24px;
+}
+
+.nav__item span{
+    margin-left: 5px;
 }
 
 .active{

@@ -1,5 +1,4 @@
 
-/*
 .wrapper {
     display: flex;
     width: 100%;
@@ -12,15 +11,5 @@
     transition: all 0.3s;
     position: absolute;
     top: 0;
-    right: 0;
-    background-color: rgba(210, 210, 161, 0.2);
-}
-*/
-
-.home__content {
-    width: calc(100% - 220px);
-    height: calc(100% - 48px);
-    position: absolute;
-    top: 48px;
     right: 0;
 }

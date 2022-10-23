@@ -1,0 +1,95 @@
+
+.player__content {
+    width: calc(100% - 220px);
+    height: calc(100% - 48px);
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 48px;
+    right: 0;
+}
+
+
+.conteiner__player{
+    margin: 100px auto;
+    padding: 1rem;
+    width: 940px;
+    height: 360px;
+    background-color: var(--gelo);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.player__capa{
+    display: flex;
+}
+
+
+.player__imagem {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.player__perfil-img{
+    width: 60px;
+    height: 60px;
+}
+
+.player__perfil{
+    padding: 1rem;
+}
+
+
+.player__perfil-content{
+    display: flex;
+    width: 550px;
+    padding: 1.5rem;
+    font-weight: 500;
+}
+
+.player__perfil-detalhes{
+    margin: 0 10px;
+
+}
+
+
+.player__like{
+    width: 32px;
+    height: 32px;
+}
+
+
+.player__titulo{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+
+.player__controle{
+
+}
+
+.player__progress{
+    width: 700px;
+    height: 10px;
+    padding: 3px;
+}
+
+.icone{
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.curtir{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+
+.icone__playlist{
+    transform: scale(2);
+    margin-left: 5px;
+}
+

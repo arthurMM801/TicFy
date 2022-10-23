@@ -1,0 +1,29 @@
+
+.lista__musicas{
+    overflow-x: hidden;
+    margin-top: 1.6rem;
+}
+
+.tituloDaLista{
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.list-group-horizontal{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: .5rem;
+}
+
+.item__musica{
+    display: inline-block;
+    width: 15%;
+    margin-right: 2rem;
+    min-width: 160px;
+}
+
+.list-group-horizontal:last-child{
+    margin-right: 0;
+}
+
