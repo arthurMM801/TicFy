@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom'
-import './login.css'
+import './cadastro.css'
 
-const Login = ()=>{
-
-  return(
-    <body className='trasform'>
-        <div className='login-container'>
-          <h1>Log In</h1>
+const Cadastro =()=>{
+    return(
+        <body className='trasform'>
+        <div className='login-container cadastro-container'>
+          <h1>Cadastro</h1>
           <form>
             <div className="input-area mb-3">
               <label htmlFor='email'>Email:</label>
@@ -20,23 +18,24 @@ const Login = ()=>{
                 type="password"
                 className="form-control"
                 id='senha'
-
                 />
-                
-              <div className="form-check">
-                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                <label className="form-check-label" for="flexCheckDefault">
-                  Lembrar de mim.
-                </label>
-              </div>
+                <label htmlFor='name'>Seu nome:</label>
+                <input
+                type="text"
+                className="form-control"
+                id='name'
+                />
+                <label htmlFor='date'>Data de nascimento:</label>
+                <input
+                type="text"
+                className="form-control"
+                id='date'
+                />                
+
 
               <button
                type="submit"
-               className="btn btn-primary">Entrar</button>
-              
-              <button
-               type="submit"
-               className="btn-pink">Cadastrar</button>
+               className="btn btn-primary">Cadastrar</button>
             </div>
             <div className='btn-social-area'>
               <span>Você pode também pode entrar com uma rede social</span>
@@ -46,7 +45,7 @@ const Login = ()=>{
                 width="40" 
                 height="40" 
                 fill="currentColor" 
-                class="bi bi-facebook" 
+                className="bi bi-facebook" 
                 viewBox="0 0 16 16"
                 color="white"
                 >
@@ -59,7 +58,7 @@ const Login = ()=>{
                 width="40" 
                 height="40" 
                 fill="currentColor" 
-                class="bi bi-google" 
+                className="bi bi-google" 
                 viewBox="0 0 16 16"
                 color="white"
                 >
@@ -72,7 +71,7 @@ const Login = ()=>{
         </div>
 
     </body>
-  )
+    )
 }
 
-export default Login
+export default Cadastro;
