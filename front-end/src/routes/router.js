@@ -17,7 +17,7 @@ const Rotas = () =>{
       
       <Route path='/login' element={ <Login/> }/>
       <Route path='/cadastro' element={ <Cadastro/> }/>
-      <Route path='/SeusGostos' element={ <Gostos/> }/>
+      <Route path='/seusgostos' element={ <Gostos/> }/>
 
       <Route path='/explorar' element={ <Explorar />} />
       <Route path='/player' element={ <Player />} />

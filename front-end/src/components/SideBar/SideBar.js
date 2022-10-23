@@ -1,6 +1,7 @@
 import './sideBar.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'https://kit.fontawesome.com/119463e00c.js';
+import { Link } from 'react-router-dom';
 
 function SideBar() {
 
@@ -13,10 +14,10 @@ function SideBar() {
 
             <ul className="components list-unstyled">
                 <li className="active nav__item">
-                    <a href="#homeSubmenu" className="">
+                    <Link to = '/' className="">
                         <i className="fa-solid fa-house"></i>
                         <span>Home</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav__item">
                     <a href="#">
@@ -25,10 +26,10 @@ function SideBar() {
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="#">
+                    <Link to = '/explorar'>
                         <i className="fa-brands fa-wpexplorer"></i>
                         <span>Explorar</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav__item">
                     <a href="#">
