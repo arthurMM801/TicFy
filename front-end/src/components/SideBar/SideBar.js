@@ -1,6 +1,7 @@
 import './sideBar.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'https://kit.fontawesome.com/119463e00c.js';
+import { Link } from 'react-router-dom';
 
 function SideBar() {
 
@@ -13,30 +14,34 @@ function SideBar() {
 
             <ul className="components list-unstyled">
                 <li className="active nav__item">
-                    <a href="#homeSubmenu" className="">
+                    <Link to = '/' className="">
                         <i className="fa-solid fa-house"></i>
-                        Home
-                    </a>
+                        <span>Home</span>
+                    </Link>
                 </li>
                 <li className="nav__item">
                     <a href="#">
                         <i className="fa-solid fa-magnifying-glass"></i>
-                        Pesquisar
+                        <span>Pesquisar</span>
+                    </a>
+                </li>
+                <li className="nav__item">
+                    <Link to = '/explorar'>
+                        <i className="fa-brands fa-wpexplorer"></i>
+                        <span>Explorar</span>
+                    </Link>
+                </li>
+                <li className="nav__item">
+                    <a href="#">
+                        <i className="fa-solid fa-book"></i>
+                        <span>Minhas Musicas</span>
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#">
-                        <i className="fa-brands fa-wpexplorer"></i>
-                        Explorar
+                        <i className="fa-solid fa-heart"></i>
+                        <span>Curtidas</span>
                     </a>
-                </li>
-                <li className="nav__item">
-                    <i className="fa-solid fa-book"></i>
-                    <a href="#">Minhas Musicas</a>
-                </li>
-                <li className="nav__item">
-                    <i className="fa-solid fa-heart"></i>
-                    <a href="#">Curtidas</a>
                 </li>
             </ul>
 

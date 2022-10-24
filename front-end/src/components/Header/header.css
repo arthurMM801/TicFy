@@ -7,12 +7,12 @@
     border-color: #020202;
 }
 
-.perfil{
-
+.header__pesquisar{
+    width: 250px;
 }
 
-.dropdown-menu{
-    left: -100px;
+#alinhamento-menu{
+    left: -80px;
 }
 
 .pesquisar__button:hover{
