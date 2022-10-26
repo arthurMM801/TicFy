@@ -1,0 +1,21 @@
+.configurações {
+    /* Configurações */
+
+position: absolute;
+width: 148px;
+height: 30px;
+left: 795px;
+top: 170px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+
+.input-idioma {
+ position: absolute;
+ margin-top: 55%;
+}

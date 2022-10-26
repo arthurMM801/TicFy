@@ -1,5 +1,6 @@
 import './header.css'
 import 'bootstrap';
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -24,10 +25,10 @@ function Header() {
                 <a className="nav-link" aria-current="page" href="#">Baixar</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Login</a>
+                <Link className="nav-link" aria-current="page" to ='/login'>Login</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Cadastre-se</a>
+                <Link className="nav-link" aria-current="page" to ='/cadastro'>Cadastre-se</Link>
               </li>
 
               <li className="nav-item dropdown perfil">
@@ -35,7 +36,7 @@ function Header() {
                   perfil
                 </a>
                 <ul className="dropdown-menu" id="alinhamento-menu">
-                  <li><a className="dropdown-item" href="#">Minha conta</a></li>
+                  <li><Link className="dropdown-item" to ='/perfil'>Minha conta</Link></li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
@@ -43,7 +44,7 @@ function Header() {
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
-                  <li><a className="dropdown-item" href="#">Sair</a></li>
+                  <li><Link className="dropdown-item" to ='/login'>Sair</Link></li>
                 </ul>
               </li>
               
