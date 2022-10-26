@@ -30,13 +30,12 @@ const Login = ()=>{
                 </label>
               </div>
 
-              <button
-               type="submit"
-               className="btn btn-primary">Entrar</button>
+              <Link
+               className="btn btn-primary" to={'/'}>Entrar</Link>
               
-              <button
+              <Link
                type="submit"
-               className="btn-pink">Cadastrar</button>
+               className="btn-pink" to={'/cadastro'}>Cadastrar</Link>
             </div>
             <div className='btn-social-area'>
               <span>Você pode também pode entrar com uma rede social</span>

@@ -1,5 +1,6 @@
 import { useRef, useState } from "react"
 import './gostos.css'
+import { Link } from "react-router-dom"
 
 
 const Gostos =()=>{
@@ -118,10 +119,10 @@ let addClass = btnSelect ? ' active' : ''
                </div>
             </div>
 
-            <button
+            <Link
                className="btn btn-primary"
-               id="btn-gostos">Confirmar
-            </button>
+               id="btn-gostos" to={'/'}>Confirmar
+            </Link>
         </div>
     )
 }

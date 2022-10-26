@@ -40,7 +40,7 @@ function Header() {
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
-                  <li><a className="dropdown-item" href="#">Configurações</a></li>
+                  <li><Link className="dropdown-item" to ='/configs'>Configurações</Link></li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
