@@ -4,7 +4,7 @@ import 'bootstrap';
 function Header() {
 
   return (
-    <header className="conteiner">
+    <header className="conteiner fixed">
       <nav className="navbar navbar-expand-lg blue">
         <div className="container-fluid">
           <form className="d-flex" role="search">

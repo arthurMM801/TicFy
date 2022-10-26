@@ -1,6 +1,7 @@
 .blue {
     background-color: #0E8AFD;
-  }
+}
+
 
 .bntStyle {
     color: #020202;
@@ -11,11 +12,11 @@
     width: 250px;
 }
 
-.dropdown-menu{
-    left: -100px;
+#alinhamento-menu{
+    left: -80px;
 }
 
 .pesquisar__button:hover{
-    border-color: #020202;
+    background-color: blanchedalmond;
 }
 
