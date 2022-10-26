@@ -7,7 +7,13 @@
     color: #152536;
     overflow-wrap: normal;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
 }
+
+.card:hover{
+    transform: scale(1.05);
+}
+
 
 .card__image{
     width: auto;

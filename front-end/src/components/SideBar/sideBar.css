@@ -35,6 +35,11 @@
 
 .nav__item{
     margin-top: 24px;
+    transition: all 4s;
+}
+
+.nav__item :hover{
+    color: #d3d3d3;
 }
 
 .nav__item span{
@@ -42,7 +47,8 @@
 }
 
 .active{
+    /*
     background-color: #f8f8f8;
     border-radius: 4px;
-    
+    */
 }

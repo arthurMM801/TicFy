@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
 
   return (
-    <header className="conteiner">
+    <header className="conteiner fixed">
       <nav className="navbar navbar-expand-lg blue">
         <div className="container-fluid">
           <form className="d-flex" role="search">

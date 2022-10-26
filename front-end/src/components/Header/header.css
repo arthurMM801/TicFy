@@ -1,6 +1,7 @@
 .blue {
     background-color: #0E8AFD;
-  }
+}
+
 
 .bntStyle {
     color: #020202;
@@ -16,6 +17,6 @@
 }
 
 .pesquisar__button:hover{
-    border-color: #020202;
+    background-color: blanchedalmond;
 }
 
