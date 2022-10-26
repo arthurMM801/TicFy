@@ -16,7 +16,7 @@ function Perfil() {
       <div className='perfil'>
         <div className='perfil-wrapper'>
         <img src={Foto} className="perfil__image" ></img>
-        <button type="submit" className="edit_btn">
+        <button type="submit" className="edit_btn btn-pink">
         Editar perfil
         </button>
         </div>
