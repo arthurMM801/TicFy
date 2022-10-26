@@ -36,6 +36,9 @@ function SideBar() {
                         <i className="fa-solid fa-book"></i>
                         <span>Minhas Musicas</span>
                     </a>
+                    <ul>
+                        <li>Anita de cria</li>
+                    </ul>
                 </li>
                 <li className="nav__item">
                     <a href="#">

@@ -1,6 +1,7 @@
 .blue {
-    background-color: #0E8AFD;
+    background-color:var(--azul);
 }
+
 
 
 .bntStyle {
@@ -8,15 +9,18 @@
     border-color: #020202;
 }
 
+
 .header__pesquisar{
-    width: 250px;
+    width: 300px;
 }
+
 
 #alinhamento-menu{
     left: -80px;
 }
 
+
 .pesquisar__button:hover{
-    background-color: blanchedalmond;
+    background-color: var(--gelo);
 }
 
