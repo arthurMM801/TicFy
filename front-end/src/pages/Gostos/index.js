@@ -1,4 +1,4 @@
-import { useRef, useState } from "react"
+import { useRef } from "react"
 import './gostos.css'
 import { Link } from "react-router-dom"
 
@@ -42,7 +42,7 @@ const Gostos =()=>{
     },
 ]
 
-    const [btnSelect, setbtnSelect] = useState(false)
+  
 
 
 
@@ -59,11 +59,7 @@ const handleRightClick =(e)=>{
     carrocel.current.scrollLeft += carrocel.current.offsetWidth
 }
 
-const handleCLickItem =(e)=>{
-    e.preventDefault();
-    setbtnSelect(btnSelect => !btnSelect)
-}
-let addClass = btnSelect ? ' active' : ''
+
 
     return(
         <div className="Container-Gostos">
@@ -73,7 +69,7 @@ let addClass = btnSelect ? ' active' : ''
 
 
             <button 
-            className={`arrow-left`}
+            className='arrow-left'
             onClick={handleLeftClick}
             >
                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +81,7 @@ let addClass = btnSelect ? ' active' : ''
                 </button>
 
                 <button 
-                className={`arrow-right`}
+                className='arrow-right'
                 onClick={handleRightClick}
                 >
                 <svg xmlns="http://www.w3.org/2000/svg"

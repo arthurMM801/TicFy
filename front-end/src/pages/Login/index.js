@@ -45,7 +45,7 @@ const Login = ()=>{
                 width="40" 
                 height="40" 
                 fill="currentColor" 
-                class="bi bi-facebook" 
+                className="bi bi-facebook" 
                 viewBox="0 0 16 16"
                 color="white"
                 >
@@ -58,7 +58,7 @@ const Login = ()=>{
                 width="40" 
                 height="40" 
                 fill="currentColor" 
-                class="bi bi-google" 
+                className="bi bi-google" 
                 viewBox="0 0 16 16"
                 color="white"
                 >
