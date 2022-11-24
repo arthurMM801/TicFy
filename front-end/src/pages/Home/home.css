@@ -19,8 +19,7 @@
 
 .home__content {
     width: calc(100% - 220px);
-    height: calc(100% - 48px);
     position: absolute;
-    top: 48px;
+    top: 56px;
     right: 0;
 }

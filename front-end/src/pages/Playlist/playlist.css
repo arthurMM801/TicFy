@@ -1,0 +1,68 @@
+.playlist_wrapper {
+    display: flex;
+    margin: 30px;
+}
+
+.playlist_img img {
+    width: 225px;
+    height: 220px;
+}
+
+.playlist_info {
+    margin-left: 10px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.playlist_info2 span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.playlist_info2 h1 {
+    font-size: 65px;
+}
+
+.playlist_info span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon {
+width: 50px;
+height: 50px;
+}
+
+.lista_musicas {
+    margin: 30px;
+}
+
+.lista_musicas ol {
+    padding: 0;
+}
+
+.lista_musicas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lista_musicas a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.playlist_icons {
+    display: flex;
+}
+
+.musica_info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

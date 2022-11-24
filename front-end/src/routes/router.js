@@ -7,6 +7,8 @@ import Explorar from '../pages/Explorar'
 import Player from '../pages/Player'
 import Cadastro from '../pages/Cadastro'
 import Perfil from '../pages/Perfil'
+import Configs from '../pages/Configs'
+import Playlist from '../pages/Playlist'
 
 
 const Rotas = () =>{
@@ -22,6 +24,8 @@ const Rotas = () =>{
       <Route path='/explorar' element={ <Explorar />} />
       <Route path='/player' element={ <Player />} />
       <Route path='/perfil' element={ <Perfil />} />
+      <Route path='/configs' element={ <Configs />} />
+      <Route path='/playlist' element={ <Playlist />} />
 
 
 

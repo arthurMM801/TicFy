@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Header() {
 
   return (
-    <header className="conteiner">
+    <header className="conteiner fixed">
       <nav className="navbar navbar-expand-lg blue">
         <div className="container-fluid">
           <form className="d-flex" role="search">
@@ -40,7 +40,7 @@ function Header() {
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
-                  <li><a className="dropdown-item" href="#">Configurações</a></li>
+                  <li><Link className="dropdown-item" to ='/configs'>Configurações</Link></li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>

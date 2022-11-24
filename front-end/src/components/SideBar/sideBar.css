@@ -28,13 +28,19 @@
 }
 
 .nav__item a {
-    color: black;
+    color: #121212;
     font-size: 1.1rem;
     text-decoration: none;
 }
 
 .nav__item{
     margin-top: 24px;
+    transition: all 4s;
+}
+
+.nav__item :hover{
+    background-color: #d3d3d3;
+    border-radius: 4px;
 }
 
 .nav__item span{
@@ -42,7 +48,8 @@
 }
 
 .active{
+    /*
     background-color: #f8f8f8;
     border-radius: 4px;
-    
+    */
 }

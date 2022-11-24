@@ -32,16 +32,16 @@ function SideBar() {
                     </Link>
                 </li>
                 <li className="nav__item">
-                    <a href="#">
+                    <Link to = '/playlist'>
                         <i className="fa-solid fa-book"></i>
                         <span>Minhas Musicas</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav__item">
-                    <a href="#">
+                    <Link to = '/perfil'>
                         <i className="fa-solid fa-heart"></i>
                         <span>Curtidas</span>
-                    </a>
+                    </Link>
                 </li>
             </ul>
 
