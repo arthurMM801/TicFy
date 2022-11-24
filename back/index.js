@@ -14,7 +14,7 @@ const port = process.env.PORT
 
 mongoose
   .connect(
-      `mongodb+srv://${dbuser}:${dbpass}@cluster0.sw9ad.mongodb.net/crud?retryWrites=true&w=majority`
+      `mongodb+srv://${dbpass}:${dbuser}@ticfy.a4snqlt.mongodb.net/?retryWrites=true&w=majority`
     )
     .then(()=>{
       app.use('/', require('./src/routes/routes'))
@@ -22,5 +22,3 @@ mongoose
 
     })
     .catch(err=>(console.log(`algo deu errado ao conectar no banco. Veja isso -->${err}`))); 
-
- 
