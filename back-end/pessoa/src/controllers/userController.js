@@ -44,4 +44,4 @@ module.exports={
         await UserModel.findByIdAndDelete(id)
         res.status(200).json({message:`Usuario de id ${id} deletado`});
     }
-}
+} 

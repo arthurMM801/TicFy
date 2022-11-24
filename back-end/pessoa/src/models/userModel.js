@@ -6,4 +6,4 @@ const UserModel = mongoose.model('User',{
     password:String
 })
 
-module.exports = UserModel
+module.exports = UserModel 
