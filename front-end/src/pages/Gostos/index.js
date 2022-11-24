@@ -1,4 +1,5 @@
 import { useRef, useState } from "react"
+import { Link } from "react-router-dom"
 import './gostos.css'
 
 
@@ -46,7 +47,7 @@ const Gostos =()=>{
 
 
 const carrocel = useRef(null)
-const item = useRef(null)
+
 
 const handleLeftClick =(e)=>{
     e.preventDefault()
@@ -57,12 +58,12 @@ const handleRightClick =(e)=>{
     e.preventDefault()
     carrocel.current.scrollLeft += carrocel.current.offsetWidth
 }
-
 const handleCLickItem =(e)=>{
     e.preventDefault();
     setbtnSelect(btnSelect => !btnSelect)
 }
-let addClass = btnSelect ? ' active' : ''
+
+
 
     return(
         <div className="Container-Gostos">
@@ -103,7 +104,6 @@ let addClass = btnSelect ? ' active' : ''
                                 <div 
                                 key={img.id} 
                                 className={`item item${img.id}`}
-                                ref={item}
                                 >
                                     <img 
                                     src={img.img} 
@@ -118,10 +118,12 @@ let addClass = btnSelect ? ' active' : ''
                </div>
             </div>
 
-            <button
+            {/* <button
                className="btn btn-primary"
                id="btn-gostos">Confirmar
-            </button>
+            </button> */}
+
+            <Link to={"/"} className="btn btn-primary" id="btn-gostos">Confirmar</Link>
         </div>
     )
 }
