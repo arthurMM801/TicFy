@@ -1,4 +1,4 @@
-import './App.css';
+
 import Rotas from './routes/router';
 
 
