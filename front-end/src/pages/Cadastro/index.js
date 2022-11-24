@@ -1,4 +1,5 @@
 import './cadastro.css'
+import { Link } from 'react-router-dom'
 
 const Cadastro =()=>{
     return(
@@ -33,9 +34,9 @@ const Cadastro =()=>{
                 />                
 
 
-              <button
+              <Link
                type="submit"
-               className="btn btn-primary">Cadastrar</button>
+               className="btn btn-primary" to={'/seusgostos'}>Cadastrar</Link>
             </div>
             <div className='btn-social-area'>
               <span>Você pode também pode entrar com uma rede social</span>

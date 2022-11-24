@@ -13,26 +13,21 @@
     
 .perfil__image {
 
+    object-fit: cover;
+    width: 270px;
+    height: 290px;
+    border-radius: 420px;
 
-width: 270px;
-height: 290px;
+}
 
-
-
-
-border-radius: 420px;
-
-    }
 .edit_btn {
-background-color: #FA3783;
-border-color: rgba(255, 255, 255, 0);
-color: white;
-width: 223px;
-height: 52px;
-
-
-background: #FA3783;
-
+    background-color: #FA3783;
+    border-color: rgba(255, 255, 255, 0);
+    color: white;
+    width: 223px;
+    height: 52px;
+    background: #FA3783;
+    margin-left: 15px;
 
 }
 

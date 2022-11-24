@@ -1,10 +1,11 @@
 import './header.css'
 import 'bootstrap';
+import { Link } from 'react-router-dom';
 
 function Header() {
 
   return (
-    <header className="conteiner">
+    <header className="conteiner fixed">
       <nav className="navbar navbar-expand-lg blue">
         <div className="container-fluid">
           <form className="d-flex" role="search">
@@ -24,10 +25,10 @@ function Header() {
                 <a className="nav-link" aria-current="page" href="#">Baixar</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Login</a>
+                <Link className="nav-link" aria-current="page" to ='/login'>Login</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Cadastre-se</a>
+                <Link className="nav-link" aria-current="page" to ='/cadastro'>Cadastre-se</Link>
               </li>
 
               <li className="nav-item dropdown perfil">
@@ -35,15 +36,15 @@ function Header() {
                   perfil
                 </a>
                 <ul className="dropdown-menu" id="alinhamento-menu">
-                  <li><a className="dropdown-item" href="#">Minha conta</a></li>
+                  <li><Link className="dropdown-item" to ='/perfil'>Minha conta</Link></li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
-                  <li><a className="dropdown-item" href="#">Configurações</a></li>
+                  <li><Link className="dropdown-item" to ='/configs'>Configurações</Link></li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
-                  <li><a className="dropdown-item" href="#">Sair</a></li>
+                  <li><Link className="dropdown-item" to ='/login'>Sair</Link></li>
                 </ul>
               </li>
               

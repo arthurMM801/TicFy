@@ -30,13 +30,12 @@ const Login = ()=>{
                 </label>
               </div>
 
-              <button
-               type="submit"
-               className="btn btn-primary">Entrar</button>
+              <Link
+               className="btn btn-primary" to={'/'}>Entrar</Link>
               
-              <button
+              <Link
                type="submit"
-               className="btn-pink">Cadastrar</button>
+               className="btn-pink" to={'/cadastro'}>Cadastrar</Link>
             </div>
             <div className='btn-social-area'>
               <span>Você pode também pode entrar com uma rede social</span>
@@ -46,7 +45,7 @@ const Login = ()=>{
                 width="40" 
                 height="40" 
                 fill="currentColor" 
-                class="bi bi-facebook" 
+                className="bi bi-facebook" 
                 viewBox="0 0 16 16"
                 color="white"
                 >
@@ -59,7 +58,7 @@ const Login = ()=>{
                 width="40" 
                 height="40" 
                 fill="currentColor" 
-                class="bi bi-google" 
+                className="bi bi-google" 
                 viewBox="0 0 16 16"
                 color="white"
                 >
