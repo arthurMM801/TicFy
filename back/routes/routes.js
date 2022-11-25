@@ -9,11 +9,12 @@ routes.get('/', (req, res) => {
   });
 
 //users
-routes.get('/users', userController.get);
-routes.get('/users/:id?', userController.getDatails);
-routes.post('/users', userController.insert);
-routes.put('/users/:id?', userController.update);
-routes.delete('/users/:id?', userController.delete); 
+routes.get('/users', userController.users);
+routes.get('/users/:id?', userController.datailsUser);
+routes.post('/auth/register', userController.registerUser);
+//routes.post('/auth/login', userController.loginUser);
+routes.put('/users/:id?', userController.updateUser);
+routes.delete('/users/:id?', userController.deleteUser); 
 
 //...
 
