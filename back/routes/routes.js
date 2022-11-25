@@ -2,7 +2,7 @@ const express = require('express')
 const routes = express.Router()
 
 //controllers
-const userController = require('../APIs/users/controllers/userController')
+const userController = require('../APIs/controllers/userController')
 
 routes.get('/', (req, res) => {
     res.status(200).json({ message: 'Conectado ao servidor :]'});
