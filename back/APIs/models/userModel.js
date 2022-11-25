@@ -1,23 +1,11 @@
 const mongoose = require("mongoose")
 
 const UserModel = mongoose.model('User',{
-    nome:{
-        type:String,
-        required:true,
-    },
-    email:{
-        type:String,
-        required:true,
-    },
-    senha:{
-        type:String,
-        required:true,
-        minLength:8
-    },
-    data_nasc:{
-        type:String,
-        required:true,
-    },
+    nome:String,
+    email:String,
+    senha:String,
+    confirmarSenha:String,
+    data_nasc:String,
     avatarURl:{
         type:String, 
         default:"https://www.sapi.com.br//site/img/sem-imagen.jpg"
