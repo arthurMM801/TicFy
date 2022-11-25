@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 import { useRef, useState } from "react"
-import { Link } from "react-router-dom"
-=======
-import { useRef } from "react"
->>>>>>> a2e40d2f9e4409674adbde4c8aafcd3519f78469
+
+
+
+
 import './gostos.css'
 import { Link } from "react-router-dom"
 
@@ -63,13 +63,12 @@ const handleRightClick =(e)=>{
     e.preventDefault()
     carrocel.current.scrollLeft += carrocel.current.offsetWidth
 }
-<<<<<<< HEAD
+
 const handleCLickItem =(e)=>{
     e.preventDefault();
     setbtnSelect(btnSelect => !btnSelect)
 }
-=======
->>>>>>> a2e40d2f9e4409674adbde4c8aafcd3519f78469
+
 
 
 
@@ -126,19 +125,18 @@ const handleCLickItem =(e)=>{
                </div>
             </div>
 
-<<<<<<< HEAD
             {/* <button
                className="btn btn-primary"
                id="btn-gostos">Confirmar
             </button> */}
 
             <Link to={"/"} className="btn btn-primary" id="btn-gostos">Confirmar</Link>
-=======
+
             <Link
                className="btn btn-primary"
                id="btn-gostos" to={'/'}>Confirmar
             </Link>
->>>>>>> a2e40d2f9e4409674adbde4c8aafcd3519f78469
+
         </div>
     )
 }
