@@ -21,7 +21,7 @@ routes.delete('/users/:id?', userController.deleteUser);
 
 //comentarios
 routes.get('/comentarios', comentarioController.get);
-routes.get('/comentarios/:id?', comentarioController.getDatails);
+routes.get('/comentarios/:id?', comentarioController.getDetails);
 routes.post('/comentarios', comentarioController.insert);
 routes.put('/comentarios/:id?', comentarioController.update);
 routes.delete('/comentarios/:id?', comentarioController.delete);
