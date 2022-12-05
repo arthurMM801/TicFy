@@ -1,6 +1,5 @@
 const UserModel = require('../models/userModel')
-//const bcrypt= require('bcrypt')
-//const jwt = require('jsonwebtoken')
+const bcrypt= require('bcrypt')
 
 module.exports={
     async users(req,res){
@@ -69,30 +68,7 @@ module.exports={
             console.log("erro ----> " + err)
         })
     },
-    /*
-    async loginUser(req,res){
-        //descontrução do body
-        const {email, senha, } = req.body
-
-        //Validações
-        if(!email){
-            return res.status(422).json({msg:"o email é obrigatório"})
-        }
-        if(!senha){
-            return res.status(422).json({msg:"a senha é obrigatória"})
-        }
-        const user = await UserModel.findOne({email:email})
-        if(!user){
-            return res.status(404).json({msg:"Erro! email não encontrado"})
-        }
-        const verifyPass = await bcrypt.compare(senha, user.senha)
-        if(!verifyPass){
-            return res.status(422).json({msg:"Senha inválida"})
-        }
-
-        //talvez eu termine....
-    },
-    */
+    
     async updateUser(req,res){   
         
         const id = req.params.id

@@ -10,9 +10,8 @@ const ComentarioModel = mongoose.model('Comentarios',{
         required:true,
     },
     data:{
-        type:String,
-        required:true,
-        minLength:8
+        type:Date, 
+        default: Date.now
     },
     descricao:{
         type: String,
